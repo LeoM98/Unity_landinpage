@@ -1,12 +1,13 @@
+/* Tamaño y fuente*/
 html {
 	font-size: 16px;
     font-family: 'Lato', sans-serif;
 }
-
+/*Fondo */
 body {
 	background-image: url(..//IMAGE/unity3d-unity-yuniti.jpg);
 }
-
+/*Estilos y estructuras */
 .container {
 	max-width: 450px;
 	height: auto;
@@ -15,7 +16,7 @@ body {
 	padding-bottom: 1rem;
 	
 }
-
+/*Colocar los registros */
 .form__top {
 	width: 100%;
 	text-align: center;
@@ -23,30 +24,31 @@ body {
 	border-top: solid .4rem #F39B53;
 	margin-bottom: 1rem;
 }
-
+/*Darle forma al subtitulo */
 .form__top h2 {
 	font-weight: bold;
 	color: #CAC8C8;
 	font-size: 18px;
 }
-
+/* Color al span*/
 h2 span {
 	color: #F39B53;
 }
 
+/*Alinear el contenido */
 .form__reg {
 	padding: 0 2rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
-
+/* Mover los botones*/
 .btn__form {
 	display: flex;
 	justify-content: space-around;
 	margin-top: 1rem;
 }
-
+/* Movida de los contenidos*/
 .input, .btn__submit, .btn__reset{
 	background-color: #EFEFEF;
 	padding: .5rem;
@@ -55,11 +57,12 @@ h2 span {
 	border-bottom: solid #C8C8C8 .2rem;
 	transition: all .5s;
 }
-
+/*Accion especial */
 .input:focus {
 	border-bottom: solid #F39B53 .2rem;
 }
 
+/*MOdificar */
 .btn__submit, .btn__reset {
 	width: 40%;
 	border-bottom: none;
@@ -67,14 +70,15 @@ h2 span {
 	color: white;
 }
 
+/*Color hover */
 .btn__reset {
 	background-color: #EDA135;
 }
-
+/*Color hover */
 .btn__submit:hover {
 	background-color: #4C9ED9;
 }
-
+/* Color hover*/
 .btn__reset:hover{
 	background-color: #FA9535;
 }
